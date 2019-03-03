@@ -11,7 +11,7 @@ spring:
     #suffix: .html
     #mode: html
     # 关闭缓存 修改视图 刷新浏览器就显示 开发阶段务必关闭缓存 (=false)
-#    cache: false
+    cache: false
 
 #  rabbitmq:
 #    host: localhost
