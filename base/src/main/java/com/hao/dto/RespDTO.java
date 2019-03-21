@@ -1,4 +1,4 @@
-package com.forezp.dto;
+package com.hao.dto;
 
 import java.io.Serializable;
 

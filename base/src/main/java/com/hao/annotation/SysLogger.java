@@ -1,10 +1,7 @@
-package com.forezp.annotation;
+package com.hao.annotation;
 
 import java.lang.annotation.*;
 
-/**
- * Created by fangzhipeng on 2017/7/12.
- */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

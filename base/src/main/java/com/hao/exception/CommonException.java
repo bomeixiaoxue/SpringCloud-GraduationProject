@@ -1,4 +1,4 @@
-package com.forezp.exception;
+package com.hao.exception;
 
 
 public class CommonException extends RuntimeException {

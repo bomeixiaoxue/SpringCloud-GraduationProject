@@ -1,4 +1,4 @@
-package com.forezp.exception;
+package com.hao.exception;
 
 /**
  * 通用错误码
