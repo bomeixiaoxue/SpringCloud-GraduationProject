@@ -3,62 +3,58 @@ package com.example.demo.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.Date;
 
 /**
- * User: hao
- * Date: 2019/3/21
- * Time: 23:42
- * Description: 用户信息实体
+ * @author hao
+ * @date 2019/3/22 9:49
+ * description 用户信息实体
  */
+
 @Data
-@Entity(name = "user")
-public class UserEntity {
+@Entity(name = "u_user")
+public class UserEntity extends BaseEntity {
 
-    @Id
-    @Column(columnDefinition = "bigint COMMENT '自增id'")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "loginID", columnDefinition = "varchar(32) COMMENT '登陆账号'", nullable = false, unique = true)
+    private String loginID;
 
-    @Column(columnDefinition = "varchar(255) COMMENT '用户名'", nullable = false, unique = true)
-    private String username;
-
-    @Column(columnDefinition = "varchar(32) COMMENT '登陆账号'", nullable = false, unique = true)
-    private String loginid;
-
-    @Column(columnDefinition = "varchar(255) COMMENT '密码'", nullable = false)
+    @Column(name = "password", columnDefinition = "varchar(255) COMMENT '密码'", nullable = false)
     private String password;
 
-    @Column(columnDefinition = "varchar(255) COMMENT '个性签名'", nullable = false)
+    @Column(name = "realName", columnDefinition = "varchar(255) COMMENT '真实姓名'", nullable = false)
+    private String realName;
+
+    @Column(name = "nickName", columnDefinition = "varchar(255) COMMENT '昵称'", nullable = false)
+    private String nickName;
+
+    @Column(name = "signature", columnDefinition = "varchar(255) COMMENT '个性签名'")
     private String signature;
 
-    @Column(columnDefinition = "bit(1) COMMENT '性别:0女、1男'", nullable = false)
+    @Column(name = "sex", columnDefinition = "bit(1) COMMENT '性别:0女、1男'", nullable = false)
     private String sex;
 
-    @Column(columnDefinition = "date COMMENT '生日'", nullable = false)
-    private String birthday;
+    @Column(name = "birthday", columnDefinition = "datetime COMMENT '生日'", nullable = false)
+    private Date birthday;
 
-    @Column(columnDefinition = "varchar(12) COMMENT '手机号码'", nullable = false, unique = true)
+    @Column(name = "telephone", columnDefinition = "varchar(12) COMMENT '手机号码'", nullable = false, unique = true)
     private String telephone;
 
-    @Column(columnDefinition = "varchar(255) COMMENT '真实姓名'")
-    private String realname;
-
-    @Column(columnDefinition = "varchar(255) COMMENT '邮箱'")
+    @Column(name = "email", columnDefinition = "varchar(255) COMMENT '邮箱'")
     private String email;
 
-    @Column(columnDefinition = "text COMMENT '简介'")
+    @Column(name = "introduce", columnDefinition = "text COMMENT '简介'")
     private String introduce;
 
-    @Column(columnDefinition = "varchar(255) COMMENT '头像'")
-    private String headportrait;
+    @Column(name = "headPortrait", columnDefinition = "varchar(255) COMMENT '头像'")
+    private String headPortrait;
 
-    @Column(columnDefinition = "varchar(3) COMMENT '年龄'")
+    @Column(name = "age", columnDefinition = "varchar(3) COMMENT '年龄'")
     private String age;
 
-    @Column(columnDefinition = "varchar(255) COMMENT '职业'")
+    @Column(name = "work", columnDefinition = "varchar(255) COMMENT '职业'")
     private String work;
 
-    @Column(columnDefinition = "bit(1) COMMENT '用户状态:0禁用、1正常'", nullable = false)
-    private String userstate;
+    @Column(name = "userState", columnDefinition = "bit(1) COMMENT '用户状态:0禁用、1正常'", nullable = false)
+    private String userState;
 
 }
