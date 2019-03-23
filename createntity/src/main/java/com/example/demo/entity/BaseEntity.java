@@ -1,7 +1,9 @@
 package com.example.demo.entity;
 
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -22,9 +24,11 @@ public class BaseEntity implements Serializable {
     @Column(name = "ID", length = 32, columnDefinition = "varchar(32) COMMENT '主键UUID'")
     public String ID;
 
+    @CreationTimestamp
     @Column(name = "creatTime", columnDefinition = "datetime COMMENT '创建时间'")
     public Date creatTime;
 
+    @UpdateTimestamp
     @Column(name = "updateTime", columnDefinition = "datetime COMMENT '修改时间'")
     public Date updateTime;
 

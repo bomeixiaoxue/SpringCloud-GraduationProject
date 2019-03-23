@@ -10,7 +10,7 @@ import javax.persistence.*;
  * description 好友类型实体
  */
 @Data
-@Entity(name = "f_friendtype")
+@Entity(name = "f_friendType")
 public class FriendTypeEntity extends BaseEntity {
 
     @Column(name = "friendType", columnDefinition = "varchar(32) COMMENT '好友类型'", nullable = false, unique = true)

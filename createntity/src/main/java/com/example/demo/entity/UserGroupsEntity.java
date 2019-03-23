@@ -11,7 +11,7 @@ import javax.persistence.Entity;
  * description 用户群表
  */
 @Data
-@Entity(name = "u_usergroups")
+@Entity(name = "u_userGroups")
 public class UserGroupsEntity extends BaseEntity {
 
     @Column(name = "groupsName", columnDefinition = "varchar(255) COMMENT '群名称'", nullable = false)

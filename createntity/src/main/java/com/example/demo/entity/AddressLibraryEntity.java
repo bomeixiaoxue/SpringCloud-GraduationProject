@@ -11,7 +11,7 @@ import javax.persistence.Entity;
  * description 地址库实体，省、市、区（县），保存在一个数据库
  */
 @Data
-@Entity(name = "a_addresslibrary")
+@Entity(name = "a_addressLibrary")
 public class AddressLibraryEntity extends BaseEntity{
 
     @Column(name = "name", columnDefinition = "varchar(50) COMMENT '类型名称'")

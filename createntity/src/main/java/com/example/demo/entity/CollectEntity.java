@@ -17,8 +17,8 @@ public class CollectEntity extends BaseEntity {
     @Column(name = "userID", columnDefinition = "varchar(32) COMMENT '用户ID'", nullable = false)
     private String userID;
 
-    @Column(name = "sclyID", columnDefinition = "varchar(32) COMMENT '收藏来源ID，新闻ID，活动ID'", nullable = false)
-    private String sclyID;
+    @Column(name = "targetID", columnDefinition = "varchar(32) COMMENT '收藏对象ID：新闻、动态活动'", nullable = false)
+    private String targetID;
 
     @Column(name = "scly", columnDefinition = "int(2) COMMENT '收藏来源：0新闻、1动态活动'", nullable = false)
     private String scly;

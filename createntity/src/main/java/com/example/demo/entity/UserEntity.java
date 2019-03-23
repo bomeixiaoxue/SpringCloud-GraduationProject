@@ -1,9 +1,14 @@
 package com.example.demo.entity;
 
 import lombok.Data;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author hao
@@ -13,10 +18,10 @@ import java.util.Date;
 
 @Data
 @Entity(name = "u_user")
-public class UserEntity extends BaseEntity {
+public class UserEntity extends BaseEntity implements UserDetails, Serializable {
 
-    @Column(name = "loginID", columnDefinition = "varchar(32) COMMENT '登陆账号'", nullable = false, unique = true)
-    private String loginID;
+    @Column(name = "username", columnDefinition = "varchar(32) COMMENT '登陆账号'", nullable = false, unique = true)
+    private String username;
 
     @Column(name = "password", columnDefinition = "varchar(255) COMMENT '密码'", nullable = false)
     private String password;
@@ -56,5 +61,57 @@ public class UserEntity extends BaseEntity {
 
     @Column(name = "userState", columnDefinition = "bit(1) COMMENT '用户状态:0禁用、1正常'", nullable = false)
     private String userState;
+
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
+    private List<RoleEntity> authorities;
+
+    @Override
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    @Override
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return authorities;
+    }
+
+    public void setAuthorities(List<RoleEntity> authorities) {
+        this.authorities = authorities;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
 
 }

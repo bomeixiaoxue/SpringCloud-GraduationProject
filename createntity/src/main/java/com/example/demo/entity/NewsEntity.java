@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 /**
  * @author hao
@@ -20,7 +21,23 @@ public class NewsEntity extends BaseEntity {
     @Column(name = "newsContent", columnDefinition = "varchar(255) COMMENT '新闻内容'", nullable = false)
     private String newsContent;
 
-    @Column(name = "authorID", columnDefinition = "varchar(32) COMMENT '新闻作者ID'", nullable = false)
+    @Column(name = "newsTypeID", columnDefinition = "varchar(32) COMMENT '新闻类型ID'", nullable = false)
+    private String newsTypeID;
+
+    @Column(name = "authorID", columnDefinition = "varchar(32) COMMENT '新闻作者ID，为空时是第三方作者，只要作者名称authorName'")
     private String authorID;
+
+    @Column(name = "browseCount", columnDefinition = "int COMMENT '浏览量'")
+    private int browseCount;
+
+    @Column(name = "commentCount", columnDefinition = "int COMMENT '评论数'")
+    private int commentCount;
+
+    @Column(name = "dianZanCount", columnDefinition = "int COMMENT '点赞数'")
+    private int dianZanCount;
+
+
+    @Transient
+    private String authorName;
 
 }

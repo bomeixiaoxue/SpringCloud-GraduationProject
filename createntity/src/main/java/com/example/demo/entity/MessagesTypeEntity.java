@@ -11,7 +11,7 @@ import javax.persistence.Entity;
  * description 消息类型实体
  */
 @Data
-@Entity(name = "m_messagestype")
+@Entity(name = "m_messagesType")
 public class MessagesTypeEntity extends BaseEntity{
 
     @Column(name = "messagesType", columnDefinition = "varchar(50) COMMENT '类型名称'", nullable = false, unique = true)

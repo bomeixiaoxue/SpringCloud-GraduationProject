@@ -20,7 +20,22 @@ public class ActivityEntity extends BaseEntity{
     @Column(name = "activityContent", columnDefinition = "text COMMENT '活动内容'", nullable = false)
     private String activityContent;
 
+    @Column(name = "iconPath", columnDefinition = "varchar(255) COMMENT '地图地点图标'")
+    private String iconPath;
+
+    @Column(name = "introduce", columnDefinition = "text COMMENT '发起者个人简介'")
+    private String introduce;
+
+    @Column(name = "startTime", columnDefinition = "datetime COMMENT '活动开始时间'", nullable = false)
+    private String startTime;
+
+    @Column(name = "endTime", columnDefinition = "datetime COMMENT '活动结束时间'", nullable = false)
+    private String endTime;
+
     @Column(name = "addressID", columnDefinition = "varchar(32) COMMENT '活动地址ID'", nullable = false)
     private String addressID;
+
+    @Column(name = "peopleNumber", columnDefinition = "int COMMENT '限制人数，最多50'", nullable = false)
+    private int peopleNumber;
 
 }
