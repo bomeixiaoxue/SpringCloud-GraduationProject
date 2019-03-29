@@ -1,7 +1,7 @@
 package com.hao.userservice.exception;
 
-import com.forezp.dto.RespDTO;
-import com.forezp.exception.CommonException;
+import com.hao.dto.RespDTO;
+import com.hao.exception.CommonException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

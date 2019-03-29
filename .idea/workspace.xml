@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be9e355b-acb7-4069-bad4-a9b6e41b0f23" name="Default Changelist" comment="readme">
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/aop/SysLoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/aop/SysLoggerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/client/UserServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/client/UserServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/client/hystrix/UserServiceHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/client/hystrix/UserServiceHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/GlobalMethodSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/GlobalMethodSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/JwtConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/JwtConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/ResourceServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/exception/CommonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/exception/CommonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/web/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/hao/blogservice/web/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/config/user-service-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/config/user-service-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/ActivityEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/ActivityEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/AddressEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/FriendsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/FriendsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createntity/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/createntity/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/admin-service-pro.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/admin-service-pro.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/aop/SysLoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/aop/SysLoggerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/config/ResourceServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/exception/CommonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/exception/CommonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/web/UserController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-service/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-service/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-service/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/blog-service/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/uaa-service/target/" />
+    <ignored path="$PROJECT_DIR$/log-service/target/" />
+    <ignored path="$PROJECT_DIR$/monitor-service/target/" />
+    <ignored path="$PROJECT_DIR$/admin-service/target/" />
+    <ignored path="$PROJECT_DIR$/base/target/" />
+    <ignored path="$PROJECT_DIR$/test-/target/" />
+    <ignored path="$PROJECT_DIR$/createntity/target/" />
+    <ignored path="$PROJECT_DIR$/test-security/target/" />
+    <ignored path="$PROJECT_DIR$/sso-service/target/" />
+    <ignored path="$PROJECT_DIR$/sso-server/target/" />
+    <ignored path="$PROJECT_DIR$/news-service/target/" />
+    <ignored path="$PROJECT_DIR$/competition-service/target/" />
+    <ignored path="$PROJECT_DIR$/activity-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-537458598">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="40" />
+          <entry key="ft" value="33" />
+          <entry key="html" value="254" />
+          <entry key="java" value="2684" />
+          <entry key="log" value="1" />
+          <entry key="md" value="61" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="sh" value="7" />
+          <entry key="txt" value="30" />
+          <entry key="xml" value="309" />
+          <entry key="yml" value="204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="254" />
+          <entry key="JAVA" value="2684" />
+          <entry key="Markdown" value="61" />
+          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="Properties" value="1" />
+          <entry key="VTL" value="33" />
+          <entry key="XML" value="310" />
+          <entry key="YAML" value="204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="2" />
+          <entry key="cert" value="2" />
+          <entry key="class" value="18" />
+          <entry key="cmd" value="1" />
+          <entry key="css" value="2" />
+          <entry key="ftl" value="7" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="15" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="569" />
+          <entry key="js" value="25" />
+          <entry key="log" value="5" />
+          <entry key="md" value="5" />
+          <entry key="mvnw" value="1" />
+          <entry key="pom" value="40" />
+          <entry key="properties" value="8" />
+          <entry key="sh" value="2" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="vue" value="1" />
+          <entry key="xml" value="126" />
+          <entry key="xsd" value="2" />
+          <entry key="yml" value="64" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="18" />
+          <entry key="CSS" value="2" />
+          <entry key="FTL" value="7" />
+          <entry key="HTML" value="15" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="569" />
+          <entry key="JavaScript" value="25" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Properties" value="8" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="168" />
+          <entry key="YAML" value="64" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/SsoServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-service/config/admin-service-pro.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logback</find>
+      <find>slf4j</find>
+      <find>log4j</find>
+      <find>css</find>
+      <find>ID;</find>
+      <find>username</find>
+      <find>/uaa</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>id;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/CommentEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/CollectEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/FriendsEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/MessagesEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/AddressEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/ActivityEntity.java" />
+        <option value="$PROJECT_DIR$/createntity/src/main/java/com/example/demo/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/test-security/pom.xml" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/config/YcAnthencationProder.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/web/BlogController.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/service/impl/BlogService.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/service/IBlogService.java" />
+        <option value="$PROJECT_DIR$/test-security/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/test-security/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/test-security/src/main/java/com/example/testsecurity/forezp/web/MainController.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/test/java/com/sso/ssoservice/SsoServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/vo/User.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/MyController.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/server/UserService.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/resources/templates/ftl/login.ftl" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/SsoServiceApplication.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/sso/ssoservice/config/MyPasswordEncoder.java" />
+        <option value="$PROJECT_DIR$/news-service/src/main/java/com/news/newsservice/AdminController.java" />
+        <option value="$PROJECT_DIR$/news-service/src/main/java/com/news/newsservice/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/news-service/src/main/java/com/news/newsservice/NewsServiceApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-service/build.sh" />
+        <option value="$PROJECT_DIR$/competition-service/pom.xml" />
+        <option value="$PROJECT_DIR$/competition-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/competition-service/src/main/java/com/hao/competitionservice/CompetitionServiceApplication.java" />
+        <option value="$PROJECT_DIR$/competition-service/src/main/java/com/hao/competitionservice/Controller/MyController.java" />
+        <option value="$PROJECT_DIR$/news-service/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/competition-service/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/news-service/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/ActivityServiceApplication.java" />
+        <option value="$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/Controller/MyController.java" />
+        <option value="$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/config/SsoResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/news-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/SsoServerApplication.java" />
+        <option value="$PROJECT_DIR$/sso-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sso-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tools\apache-maven-3.2.5\repository" />
+        <option name="mavenHome" value="E:/tools/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.2.5\conf\settings-alibaba.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="395" />
+    <option name="y" value="-10" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>JSP</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssoservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud-GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud-GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="applic&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/sso-service/src/main/resources/application.yml&#10;app&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/news-service/src/main/resources/application.yml&#10;use&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/user-service/pom.xml&#10;news&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/news-service/pom.xml&#10;user-&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/user-service/pom.xml&#10;sso&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/sso-server/pom.xml&#10;User&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/user-service/src/main/java/com/hao/userservice/entity/User.java&#10;reso&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/user-service/src/main/java/com/hao/userservice/config/ResourceServerConfiguration.java&#10;StaticLoggerBinder&#9;PSI&#9;JAVA://org.slf4j.impl.StaticLoggerBinder&#10;res&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/user-service/src/main/java/com/hao/userservice/config/ResourceServerConfiguration.java&#10;resou&#9;PSI&#9;JAVA://com.hao.userservice.config.ResourceServerConfiguration&#10;blog&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/blog-service/src/main/java/com/hao/blogservice/BlogServiceApplication.java&#10;admin&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/admin-service/pom.xml&#10;monit&#9;PSI&#9;JAVA://com.hao.monitorservice.MonitorServiceApplication&#10;log-&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/log-service/pom.xml&#10;blog-s&#9;FILE&#9;file://E:/workplace/ideawork/SpringCloud-GraduationProject/blog-service/pom.xml&#10;user&#9;RUN_CONFIGURATION&#9;UserServiceApplication" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553829296457" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sso-service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48904383" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\competition-service\src\main\resources\templates" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\news-service\src\main\java\com\news\newsservice" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\sso-service\src\main\resources\templates\ftl" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\sso-service\src\main\resources\static" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\sso-service\src\main\java\com\sso\ssoservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hao.activityservice.config" />
+      <recent name="com.hao.activityservice.Controller" />
+      <recent name="com.news.newsservice.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\user-service\src\main\resources\static" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\user-service\src\main\resources\static\js\common" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\user-service\src\main\resources\templates" />
+      <recent name="E:\workplace\ideawork\SpringCloud-GraduationProject\user-service\src\main\resources\js\vue" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SsoServerApplication">
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="createntity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activity-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.activityservice.ActivityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.adminservice.AdminServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.blogservice.BlogServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompetitionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="competition-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.competitionservice.CompetitionServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="log-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.logservice.LogServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="monitor-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.monitorservice.MonitorServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="news-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.newsservice.NewsServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsoServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sso-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.ssoservice.SsoServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hao.zipkinservice.ZipkinServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CompetitionServiceApplication" />
+      <item itemvalue="Spring Boot.NewsServiceApplication" />
+      <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ActivityServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.AdminServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.ZipkinServiceApplication" />
+      <item itemvalue="Spring Boot.MonitorServiceApplication" />
+      <item itemvalue="Spring Boot.BlogServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.LogServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.SsoServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hao\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be9e355b-acb7-4069-bad4-a9b6e41b0f23" name="Default Changelist" comment="" />
+      <created>1551548124842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551548124842</updated>
+      <workItem from="1551548131662" duration="2192000" />
+      <workItem from="1551583821586" duration="6983000" />
+      <workItem from="1551597985830" duration="8719000" />
+      <workItem from="1551625308676" duration="3620000" />
+      <workItem from="1551661016288" duration="299000" />
+      <workItem from="1553179647936" duration="3482000" />
+      <workItem from="1553216421306" duration="9450000" />
+      <workItem from="1553227484912" duration="2051000" />
+      <workItem from="1553234465712" duration="2097000" />
+      <workItem from="1553267730351" duration="3226000" />
+      <workItem from="1553338526518" duration="5527000" />
+      <workItem from="1553358362726" duration="984000" />
+      <workItem from="1553404537569" duration="9629000" />
+      <workItem from="1553421804020" duration="678000" />
+      <workItem from="1553477173602" duration="117000" />
+      <workItem from="1553591052403" duration="1741000" />
+      <workItem from="1553777945724" duration="7578000" />
+      <workItem from="1553786524140" duration="254000" />
+      <workItem from="1553820744534" duration="142000" />
+      <workItem from="1553821269110" duration="7472000" />
+    </task>
+    <task id="LOCAL-00001" summary="readme">
+      <created>1551589628629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551589628629</updated>
+    </task>
+    <task id="LOCAL-00002" summary="配置中心文件">
+      <created>1551600806503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551600806503</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1551601031980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551601031980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="readme">
+      <created>1551601225247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551601225247</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme">
+      <created>1551603329353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551603329353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="readme">
+      <created>1551604007702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551604007702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__eureka-server - 2019.03.03 at 01h 59m 09s.xml">
+      <configuration name="All Features in: eureka-server" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 47m 34s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 51m 04s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 51m 56s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 53m 43s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 54m 16s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 56m 13s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 56m 41s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 57m 14s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_contextLoads - 2019.03.23 at 00h 57m 42s.xml">
+      <configuration name="DemoApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76241000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3366619" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4122682" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.56918687" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="IvyIDEA" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="IvyIDEA" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.29529244" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.37660486" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952926" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.56918687" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_WIDTH">
+      <map>
+        <entry key="2" value="289" />
+        <entry key="3" value="229" />
+      </map>
+    </option>
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置中心文件" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="790" column="39" lean-forward="true" selection-start-line="790" selection-start-column="39" selection-end-line="790" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/vo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/resources/templates/ftl/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/news-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/src/main/java/com/hao/newsservice/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/tools/apache-maven-3.2.5/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2800">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/src/main/java/com/hao/newsservice/NewsServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition-service/src/main/java/com/hao/competitionservice/CompetitionServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition-service/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition-service/src/main/java/com/hao/competitionservice/Controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/tools/apache-maven-3.2.5/repository/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="212" column="24" lean-forward="true" selection-start-line="212" selection-start-column="24" selection-end-line="212" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/config/SsoResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/ActivityServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-service/src/main/java/com/hao/activityservice/Controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/config/MyPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/server/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/sso/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="21" selection-start-line="30" selection-start-column="7" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hao/userservice/UserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/config/user-service-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/config/gateway-service-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/config/blog-service-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/config/config-client-pro.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/config/admin-service-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/tools/apache-maven-3.2.5/repository/org/springframework/cloud/spring-cloud-dependencies/Greenwich.RELEASE/spring-cloud-dependencies-Greenwich.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/src/main/java/com/hao/ssoservice/SsoServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>eureka-server:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48904383" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48904383" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48904383" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sso-service|SpringCloud-GraduationProject and modules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48904383" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48904383" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

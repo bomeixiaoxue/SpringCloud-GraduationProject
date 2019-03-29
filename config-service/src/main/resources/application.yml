@@ -7,7 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/bomeixiaoxue/springcloud
+          uri: https://github.com/bomeixiaoxue/SpringCloud-GraduationProject
+          searchPaths: config-service/config
           username: 2267919161@qq.com
           password:  # 公开的项目可以不用密码
       label: master

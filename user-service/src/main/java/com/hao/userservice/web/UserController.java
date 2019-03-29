@@ -1,7 +1,7 @@
 package com.hao.userservice.web;
 
-import com.forezp.annotation.SysLogger;
-import com.forezp.dto.RespDTO;
+import com.hao.annotation.SysLogger;
+import com.hao.dto.RespDTO;
 import com.hao.userservice.entity.User;
 import com.hao.userservice.service.UserService;
 import com.hao.userservice.util.BPwdEncoderUtils;

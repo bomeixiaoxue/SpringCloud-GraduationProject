@@ -1,0 +1,35 @@
+server:
+  port: 8082
+  context-path: /uaa
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+spring:
+#  application:
+#    name: sso-service
+  #数据源-数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-security?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 123456
+  #操作数据库-jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  freemarker:
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    suffix: .ftl
+    template-loader-path: classpath:/templates/

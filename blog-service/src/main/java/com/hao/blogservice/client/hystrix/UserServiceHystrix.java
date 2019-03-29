@@ -1,6 +1,6 @@
 package com.hao.blogservice.client.hystrix;
 
-import com.forezp.dto.RespDTO;
+import com.hao.dto.RespDTO;
 import com.hao.blogservice.client.UserServiceClient;
 import com.hao.blogservice.entity.User;
 import org.springframework.stereotype.Component;

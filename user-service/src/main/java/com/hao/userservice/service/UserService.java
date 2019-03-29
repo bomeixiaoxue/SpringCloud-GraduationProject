@@ -1,9 +1,9 @@
 package com.hao.userservice.service;
 
 
-import com.forezp.dto.RespDTO;
-import com.forezp.exception.CommonException;
-import com.forezp.exception.ErrorCode;
+import com.hao.dto.RespDTO;
+import com.hao.exception.CommonException;
+import com.hao.exception.ErrorCode;
 import com.hao.userservice.client.AuthServiceClient;
 import com.hao.userservice.dao.UserDao;
 import com.hao.userservice.dto.LoginDTO;

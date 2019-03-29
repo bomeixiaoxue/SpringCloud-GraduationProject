@@ -1,8 +1,8 @@
 package com.hao.blogservice.service;
 
-import com.forezp.dto.RespDTO;
-import com.forezp.exception.CommonException;
-import com.forezp.exception.ErrorCode;
+import com.hao.dto.RespDTO;
+import com.hao.exception.CommonException;
+import com.hao.exception.ErrorCode;
 import com.hao.blogservice.client.UserServiceClient;
 import com.hao.blogservice.dao.BlogDao;
 import com.hao.blogservice.dto.BlogDetailDTO;

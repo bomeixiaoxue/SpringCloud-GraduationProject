@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Entity(name = "f_firends")
 public class FriendsEntity extends BaseEntity {
 
-    @Column(name = "userID", columnDefinition = "varchar(32) COMMENT '自己的id'", nullable = false)
+    @Column(name = "userID", columnDefinition = "varchar(32) COMMENT '用户的id'", nullable = false)
     private String userID;
 
     @Column(name = "firendID", columnDefinition = "varchar(32) COMMENT '好友id'", nullable = false)

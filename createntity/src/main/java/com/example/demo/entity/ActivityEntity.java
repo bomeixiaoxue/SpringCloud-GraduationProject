@@ -20,8 +20,8 @@ public class ActivityEntity extends BaseEntity{
     @Column(name = "activityContent", columnDefinition = "text COMMENT '活动内容'", nullable = false)
     private String activityContent;
 
-    @Column(name = "iconPath", columnDefinition = "varchar(255) COMMENT '地图地点图标'")
-    private String iconPath;
+    @Column(name = "coverPhoto", columnDefinition = "varchar(255) COMMENT '活动封面图片'")
+    private String coverPhoto;
 
     @Column(name = "introduce", columnDefinition = "text COMMENT '发起者个人简介'")
     private String introduce;
@@ -37,5 +37,14 @@ public class ActivityEntity extends BaseEntity{
 
     @Column(name = "peopleNumber", columnDefinition = "int COMMENT '限制人数，最多50'", nullable = false)
     private int peopleNumber;
+
+    @Column(name = "browseCount", columnDefinition = "int COMMENT '浏览量'")
+    private int browseCount;
+
+    @Column(name = "commentCount", columnDefinition = "int COMMENT '评论数'")
+    private int commentCount;
+
+    @Column(name = "dianZanCount", columnDefinition = "int COMMENT '点赞数'")
+    private int dianZanCount;
 
 }

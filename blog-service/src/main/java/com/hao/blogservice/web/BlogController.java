@@ -1,9 +1,9 @@
 package com.hao.blogservice.web;
 
-import com.forezp.annotation.SysLogger;
-import com.forezp.dto.RespDTO;
-import com.forezp.exception.CommonException;
-import com.forezp.exception.ErrorCode;
+import com.hao.annotation.SysLogger;
+import com.hao.dto.RespDTO;
+import com.hao.exception.CommonException;
+import com.hao.exception.ErrorCode;
 import com.hao.blogservice.entity.Blog;
 import com.hao.blogservice.service.BlogService;
 import com.hao.blogservice.util.UserUtils;

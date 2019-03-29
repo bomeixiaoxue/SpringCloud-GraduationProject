@@ -14,16 +14,16 @@ import javax.persistence.Entity;
 @Entity(name = "a_address")
 public class AddressEntity extends BaseEntity {
 
-    @Column(name = "province", columnDefinition = "varchar(10) COMMENT '省'", nullable = false)
+    @Column(name = "province", columnDefinition = "varchar(10) COMMENT '省编号'", nullable = false)
     private String province;
 
-    @Column(name = "city", columnDefinition = "varchar(20) COMMENT '市'", nullable = false)
+    @Column(name = "city", columnDefinition = "varchar(20) COMMENT '市编号'", nullable = false)
     private String city;
 
-    @Column(name = "county", columnDefinition = "varchar(50) COMMENT '区（县）'")
+    @Column(name = "county", columnDefinition = "varchar(50) COMMENT '区（县）编号'")
     private String county;
 
-    @Column(name = "town", columnDefinition = "varchar(50) COMMENT '镇'")
+    @Column(name = "town", columnDefinition = "varchar(50) COMMENT '镇编号'")
     private String town;
 
     @Column(name = "longitude", columnDefinition = "double COMMENT '经度'")

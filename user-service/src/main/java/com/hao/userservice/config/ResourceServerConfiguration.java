@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
@@ -23,7 +24,8 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .regexMatchers(".*swagger.*",".*v2.*",".*webjars.*","/user/login.*","/user/registry.*","/user/test.*").permitAll()
+                .regexMatchers(".*swagger.*", ".*v2.*", ".*webjars.*", "/user/login.*", "/user/registry.*", "/user/test.*", "/actuator.*", "/instances.*", "/login.*", "/index.*", "/static.*").permitAll()
+                .antMatchers("/js/**", "/css/**", "/image/**", "/common/**").permitAll()
                 .antMatchers("/**").authenticated();
 //        .antMatchers("/**").permitAll();
     }
@@ -37,4 +39,5 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
 
     @Autowired
     TokenStore tokenStore;
+
 }

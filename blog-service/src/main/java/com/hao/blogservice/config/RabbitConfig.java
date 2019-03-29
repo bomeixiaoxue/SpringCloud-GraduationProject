@@ -8,9 +8,6 @@ import org.springframework.amqp.core.TopicExchange;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Created by fangzhipeng on 2017/7/12.
- */
 @Configuration
 public class RabbitConfig {
 

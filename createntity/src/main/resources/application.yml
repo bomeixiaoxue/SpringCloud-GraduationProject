@@ -9,5 +9,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+      naming:
+        ###自动建表生成策略，驼峰式命名不会加下划线
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect

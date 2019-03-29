@@ -23,7 +23,7 @@ public class UserEntity extends BaseEntity implements UserDetails, Serializable 
     @Column(name = "username", columnDefinition = "varchar(32) COMMENT '登陆账号'", nullable = false, unique = true)
     private String username;
 
-    @Column(name = "password", columnDefinition = "varchar(255) COMMENT '密码'", nullable = false)
+    @Column(name = "password", columnDefinition = "varchar(255) COMMENT '登陆密码'", nullable = false)
     private String password;
 
     @Column(name = "realName", columnDefinition = "varchar(255) COMMENT '真实姓名'", nullable = false)
