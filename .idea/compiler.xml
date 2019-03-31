@@ -9,26 +9,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="activity-service" />
-        <module name="admin-service" />
         <module name="base" />
-        <module name="blog-service" />
+        <module name="chat-service" />
         <module name="competition-service" />
-        <module name="config-service" />
         <module name="createntity" />
         <module name="eureka-service" />
-        <module name="gateway-service" />
-        <module name="log-service" />
-        <module name="monitor-service" />
         <module name="news-service" />
         <module name="sso-service" />
-        <module name="uaa-service" />
         <module name="user-service" />
-        <module name="zipkin-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="test-" target="1.8" />
-      <module name="test-security" target="1.8" />
+      <module name="admin-service" target="1.8" />
+      <module name="blog-service" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="createntity" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="log-service" target="1.8" />
+      <module name="monitor-service" target="1.8" />
+      <module name="uaa-service" target="1.8" />
+      <module name="zipkin-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

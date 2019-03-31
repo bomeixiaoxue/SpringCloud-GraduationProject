@@ -1,15 +1,9 @@
-auth-server: http://localhost:8082/uaa
 server:
-  port: 8084
+  port: 8083
   servlet:
-    context-path: /client2
-security:
-  oauth2:
-    client:
-      client-id: merryyou2
-      client-secret: merryyousecrect2
-      user-authorization-uri: ${auth-server}/oauth/authorize
-      access-token-uri: ${auth-server}/oauth/token
-    resource:
-      jwt:
-        key-uri: ${auth-server}/oauth/token_key
+    context-path: /competition
+spring:
+  application:
+    name: competition-service
+  profiles:
+    include: common

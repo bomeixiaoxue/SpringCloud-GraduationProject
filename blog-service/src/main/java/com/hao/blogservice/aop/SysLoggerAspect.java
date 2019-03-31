@@ -1,7 +1,7 @@
 package com.hao.blogservice.aop;
 
 import com.alibaba.fastjson.JSON;
-import com.hao.annotation.SysLogger;
+import com.hao.base.annotation.SysLogger;
 import com.hao.blogservice.entity.SysLog;
 import com.hao.blogservice.service.LoggerService;
 import com.hao.blogservice.util.HttpUtils;

@@ -1,8 +1,8 @@
 package com.hao.userservice.client.hystrix;
 
 
+import com.hao.base.vo.JWT;
 import com.hao.userservice.client.AuthServiceClient;
-import com.hao.userservice.entity.JWT;
 import org.springframework.stereotype.Component;
 
 /**

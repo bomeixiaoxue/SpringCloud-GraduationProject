@@ -1,0 +1,20 @@
+spring:
+  #数据源-数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/soccer?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 123456
+  #  操作数据库-jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        ###自动建表生成策略，驼峰式命名不会加下划线
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+
+#mybatis:
+#  mapper-locations: classpath*:mapper/*.xml
+server:
+  port: 8601

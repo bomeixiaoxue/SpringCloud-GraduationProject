@@ -20,11 +20,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.formLogin().loginPage("/authentication/require")
+        http.formLogin()
+                .loginPage("/authentication/require")
                 .loginProcessingUrl("/authentication/form")
                 .and().authorizeRequests()
                 .antMatchers("/authentication/require",
                         "/authentication/form",
+                        "authentication/exit",
                         "/**/*.js",
                         "/**/*.css",
                         "/**/*.jpg",
@@ -35,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .csrf().disable();
-//        http.formLogin().and().authorizeRequests().anyRequest().authenticated();
+        http.logout().logoutSuccessUrl("/authentication/loginout");
     }
 
     @Override

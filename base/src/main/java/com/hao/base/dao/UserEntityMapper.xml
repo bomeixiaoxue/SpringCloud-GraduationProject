@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hao.base.dao.UserEntityMapper">
+    <!--获取-->
+    <select id="selectUser" parameterType="String" resultType="com.hao.base.entity.UserEntity">
+        select * from u_user where username = #{username} and yxbz = 1;
+    </select>
+</mapper>

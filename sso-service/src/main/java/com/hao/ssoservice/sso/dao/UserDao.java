@@ -1,6 +1,6 @@
 package com.hao.ssoservice.sso.dao;
 
-import com.hao.ssoservice.sso.vo.User;
+import com.hao.ssoservice.sso.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -8,6 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @date 2019/3/28 20:32
  * description
  */
-public interface UserDao extends JpaRepository<User, Long> {
-    User findByUsername(String username);
+public interface UserDao extends JpaRepository<UserEntity, Long> {
+    UserEntity findByUsername(String username);
 }

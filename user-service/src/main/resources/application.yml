@@ -1,0 +1,9 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /user
+spring:
+  application:
+    name: user-service
+  profiles:
+    include: common

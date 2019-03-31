@@ -1,8 +1,8 @@
 package com.hao.userservice.service;
 
 import com.alibaba.fastjson.JSON;
-import com.hao.userservice.config.RabbitConfig;
-import com.hao.userservice.entity.SysLog;
+import com.hao.base.config.RabbitConfig;
+import com.hao.base.vo.SysLog;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

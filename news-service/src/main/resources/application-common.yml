@@ -1,0 +1,50 @@
+host-server: localhost
+auth-server: http://${host-server}:8762/sso # sso-server地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${host-server}:8761/eureka/
+security:
+  oauth2:
+    client:
+      client-id: merryyou1
+      client-secret: merryyousecrect1
+      user-authorization-uri: ${auth-server}/oauth/authorize #请求认证的地址
+      access-token-uri: ${auth-server}/oauth/token #请求令牌的地址
+    resource:
+      jwt:
+        key-uri: ${auth-server}/oauth/token_key #解析jwt令牌所需要密钥的地址
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    # 开发阶段务必关闭缓存 (=false)
+    cache: false
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${host-server}:3306/soccer?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    jpa:
+      hibernate:
+        ddl-auto: update
+        naming:
+          ###自动建表生成策略，驼峰式命名不会加下划线
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql: true
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  rabbitmq:
+    host: ${host-server}
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
+
+feign:
+  hystrix:
+    enabled: true

@@ -1,7 +1,7 @@
 package com.hao.userservice.client;
 
+import com.hao.base.vo.JWT;
 import com.hao.userservice.client.hystrix.AuthServiceHystrix;
-import com.hao.userservice.entity.JWT;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;

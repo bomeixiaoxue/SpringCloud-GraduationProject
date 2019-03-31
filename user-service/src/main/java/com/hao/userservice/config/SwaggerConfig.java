@@ -1,6 +1,5 @@
 package com.hao.userservice.config;
 
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -17,14 +16,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.ArrayList;
 import java.util.List;
 
-
-/**
- * Created by chen on 2017/4/19.
- * <p>
- * Email 122741482@qq.com
- * <p>
- * Describe:
- */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -49,7 +40,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.forezp.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.hao.userservice.controller"))
                 .paths(PathSelectors.any())
                 .build().globalOperationParameters(parameter());
                 //.securitySchemes(newArrayList(oauth()))
@@ -61,7 +52,7 @@ public class SwaggerConfig {
                 .title(" user-service api ")
                 .description("user-service 微服务")
                 .termsOfServiceUrl("")
-                .contact("forezp")
+                .contact("hao")
                 .version("1.0")
                 .build();
     }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hao.base.dao.ActivityEntityMapper">
+    <select id="selectById" parameterType="String" resultType="com.hao.base.entity.ActivityEntity">
+        select * from a_activity where id = #{id} and yxbz = 1;
+    </select>
+</mapper>

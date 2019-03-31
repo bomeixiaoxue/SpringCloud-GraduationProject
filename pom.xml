@@ -17,17 +17,22 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>base</module>
+        <!--系统模块-->
         <module>eureka-service</module>
         <module>config-service</module>
         <module>zipkin-service</module>
-        <module>user-service</module>
         <module>blog-service</module>
         <module>gateway-service</module>
-        <module>uaa-service</module>
         <module>log-service</module>
         <module>monitor-service</module>
         <module>admin-service</module>
+        <!--业务模块-->
+        <module>base</module>
+        <module>news-service</module>
+        <module>competition-service</module>
+        <module>activity-service</module>
+        <module>user-service</module>
+
     </modules>
 
     <properties>
@@ -42,10 +47,6 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
@@ -57,13 +58,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--<dependency>-->
-                <!--<groupId>io.spring.platform</groupId>-->
-                <!--<artifactId>platform-bom</artifactId>-->
-                <!--<version>Brussels-SR4</version>-->
-                <!--<type>pom</type>-->
-                <!--<scope>import</scope>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
