@@ -19,9 +19,6 @@ import org.springframework.util.StringUtils;
 import java.lang.reflect.Method;
 import java.util.Date;
 
-/**
- * Created by fangzhipeng on 2017/7/12.
- */
 @Aspect
 @Component
 public class SysLoggerAspect {
@@ -29,7 +26,7 @@ public class SysLoggerAspect {
     @Autowired
     private LoggerService loggerService;
 
-    @Pointcut("@annotation(com.hao.annotation.SysLogger)")
+    @Pointcut("@annotation(com.hao.base.annotation.SysLogger)")
     public void loggerPointCut() {
 
     }

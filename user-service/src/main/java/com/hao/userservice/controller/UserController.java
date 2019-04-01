@@ -1,7 +1,9 @@
 package com.hao.userservice.controller;
 
 import com.hao.base.MapperFactory;
-import com.hao.userservice.service.IUser;
+import com.hao.base.entity.UserEntity;
+import com.hao.base.vo.ResponseVO;
+import com.hao.userservice.service.IUserService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -15,16 +17,43 @@ import javax.annotation.Resource;
 public class UserController {
 
     @Resource
-    private IUser iUser;
+    private IUserService iUserService;
 
     @Resource
     private MapperFactory mapperFactory;
+
+    @RequestMapping(value = "/get")
+    public ResponseVO get(UserEntity userEntity){
+        return iUserService.get(userEntity);
+    }
+
+    @RequestMapping(value = "/getList")
+    public ResponseVO getList(UserEntity userEntity){
+        return iUserService.getList(userEntity);
+    }
+
+    @RequestMapping(value = "/createUser")
+    public ResponseVO createUser(UserEntity userEntity){
+        return iUserService.add(userEntity);
+    }
+
+    @RequestMapping(value = "/deleteUser")
+    public ResponseVO deleteUser(UserEntity userEntity){
+        return iUserService.delete(userEntity);
+    }
+
+    @RequestMapping(value = "/updateUser")
+    public ResponseVO updateUser(UserEntity userEntity){
+        return iUserService.update(userEntity);
+    }
 
     @RequestMapping(value = "/name")
     public String name(){
         System.err.println(mapperFactory.getUserEntityMapper().selectUser("admin"));
         return "林广豪";
     }
+
+
 
 //    @Autowired
 //    UserService userService;

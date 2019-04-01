@@ -5,4 +5,43 @@
     <select id="selectUser" parameterType="String" resultType="com.hao.base.entity.UserEntity">
         select * from u_user where username = #{username} and yxbz = 1;
     </select>
+
+    <select id="get" parameterType="com.hao.base.entity.UserEntity" resultType="com.hao.base.entity.UserEntity">
+        select * from u_user where yxbz = 1
+        <if test="ID != null">
+            and ID = #{ID}
+        </if>
+        <if test="username != null">
+            and username = #{username}
+        </if>
+    </select>
+
+    <select id="getList" parameterType="com.hao.base.entity.UserEntity" resultType="com.hao.base.entity.UserEntity">
+          select * from u_user where yxbz = 1
+    </select>
+
+    <insert id="add" parameterType="com.hao.base.entity.UserEntity">
+
+    </insert>
+
+    <insert id="addList" parameterType="com.hao.base.entity.UserEntity">
+
+    </insert>
+
+    <delete id="delete" parameterType="com.hao.base.entity.UserEntity">
+
+    </delete>
+
+    <delete id="deleteList" parameterType="com.hao.base.entity.UserEntity">
+
+    </delete>
+
+    <update id="update" parameterType="com.hao.base.entity.UserEntity">
+
+    </update>
+
+    <update id="updateList" parameterType="com.hao.base.entity.UserEntity">
+
+    </update>
+
 </mapper>
